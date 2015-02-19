@@ -9,3 +9,7 @@
 
 # RStudio files
 .Rproj.user/
+
+# Original dataset
+UCI HAR Dataset/
+getdata-projectfiles-UCI HAR Dataset.zip
