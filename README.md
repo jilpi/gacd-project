@@ -17,11 +17,11 @@ The Coursera project consists in consolidating, tidying and selecting a subset o
 
 # Script
 
-The script performing the required operations is called run_analysis.R, and can be found in this repository. It was developped and tested using R Studio 0.98.1102 and R 3.1.2 for windows.
+The script performing the required operations is called [run_analysis.R](run_analysis.R), and can be found in this repository. It was developped and tested using R Studio 0.98.1102 and R 3.1.2 for windows.
 
 Usage:
 
-1. Put the script (run_analysis.R) in your working directory
+1. Put the script ([run_analysis.R](run_analysis.R)) in your working directory
 2. Unzip the original data set in the same working directory. The files will be located in a subdirectory called "UCI HAR Dataset\".
 3. Make sure you have dplyr package installed in your environment. If not, use the following command:
 
