@@ -11,3 +11,6 @@ Same as HAR.
 Variables contain the mean of each variables for all
 observations of a given subject and a given activity.
 
+subject: Number that represent the subject carrying the phone during the observations.
+activity: desctiption of the activity being performed by the subject duribg the observations.
+
