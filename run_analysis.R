@@ -53,8 +53,11 @@ names(subject) <- "subject"
 X <- select(X, contains("std.."), contains("mean.."), -contains("angle"))
 
 # Cleanup the names of the variables (removes double dots, and replace triple dots with an underscore)
-names(X) <- sub(pattern = "\\.\\.\\.", replacement = "_", names(X))
-names(X) <- sub(pattern = "\\.\\.", replacement = "", names(X))
+names(X) <- names(X) %>%
+  sub(pattern = "\\.\\.\\.", replacement = "_") %>%
+  sub(pattern = "\\.\\.", replacement = "")
+names(X) <- paste("mean(", names(X), ")", sep="")
+
 
 # 3) Uses descriptive activity names to name the activities in the data set
 # The descriptive activity names are stored in 'labels', along with the activity number.
